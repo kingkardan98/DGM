@@ -39,11 +39,14 @@ body {
 
 .front {
     z-index: 1;
-    border-left: 2px solid gray;
+    border: 2px solid gray;
+    border-left: 1px solid gray;
     backface-visibility: hidden;
 }
 
 .back {
+    border: 2px solid gray;
+    border-left: 1px solid gray;
     z-index: 0;
 }
 
