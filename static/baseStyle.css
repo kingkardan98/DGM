@@ -1,0 +1,32 @@
+/* Beige gives of "literature" vibes. */
+body {
+    background-color: beige;
+    font-family: 'Cormorant Garamond';
+}
+
+/* Creating cool shadow effect. */
+.content {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 6px;
+}
+
+/* Alignment of elements inside content divs. */
+.justify-left,
+.justify-center,
+.justify-right {
+    display: flex;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: right;
+}
