@@ -10,14 +10,19 @@
         Book selector
     </h1>
 </div>
-<div class="content center wide">
+<div class="content center wide" style="margin-top: 60px">
     <!--Book container-->
     <div class="sidebySideBooks paddedBooks">
         <!--Personal diary-->
-        <a href="{{ url_for('diary')}}">
+        <a href="{{ url_for('diary') }}">
             <div class="page">
                     <img src="../static/diary_cover.png" style="width: 370px; height: 600px">
                 
+            </div>
+        </a>
+        <a href="{{ url_for('writings') }}">
+            <div class="page2">
+
             </div>
         </a>
     </div>
