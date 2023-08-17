@@ -15,7 +15,8 @@ body {
 /* Alignment of elements inside content divs. */
 .justify-left,
 .justify-center,
-.justify-right {
+.justify-right,
+.justify-even {
     display: flex;
 }
 
@@ -31,16 +32,24 @@ body {
     justify-content: right;
 }
 
+.justify-even {
+    justify-content: space-evenly;
+}
+
 /* Styling links */
 
-a:link {
+.aStyle:link {
     color: blue;
     background-color: beige;
     padding: 1px 1px;
     text-align: center;
 }
 
-a:hover {
+.aStyle:hover {
     background-color: black;
     color: white;
+}
+
+.wide {
+    width: 100%;
 }
