@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block pagetitle %}
+<title>Homepage</title>
+{% endblock %}
+
 {% block body %}
 <div class="content">
     <h1 class="justify-center">
@@ -14,7 +18,8 @@
         This small webpage is coded in HTML, CSS and JavaScript, running on the Python Flask framework.
     </p>
     <p>
-        It contains a <a href="{{ url_for('selector') }}" class="aStyle">book selector</a>, which leads to two other pages: an excerpt of my <a href="{{ url_for('diary') }}" class="aStyle">personal diary</a> and a selection of <a href="#" class="aStyle">other writings.</a>
+        It contains a <a href="{{ url_for('selector') }}" class="aStyle">book selector</a>, which leads to two other pages: an excerpt of my 
+        <a href="{{ url_for('diary') }}" class="aStyle">personal diary</a> and a selection of <a href="{{ url_for('writings') }}" class="aStyle">other writings.</a>
     </p>
     <p>
         The cover for the diary was designed by me using Photoshop. The diary and all other writings are in their original language (Italian), since most of them are literary writings, and rhymes would be lost in translation.
