@@ -38,8 +38,9 @@
     </head>
     <body>
         <div class="content">
-            <div id="navbar">
-                <a href="{{ url_for('home')}}">Home page</a>
+            <div id="navbar" class="justify-even">
+                <a href="{{ url_for('home')}}" class="aStyle">Home page</a>
+                <a href="{{ url_for('selector')}}" class="aStyle">Book selector</a>
             </div>
         </div>
         {% block body %}
