@@ -13,3 +13,7 @@ def diary():
 @app.route("/selector")
 def selector():
     return render_template("book_selector.html")
+
+@app.route("/writings")
+def writings():
+    return render_template("writings.html")
