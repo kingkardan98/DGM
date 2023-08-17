@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const prevBtn = document.querySelector("#prev-btn");
     const nextBtn = document.querySelector("#next-btn");
     const book = document.querySelector("#book");
+
+    const openSound = document.querySelector("#opensound");
+    const closeSound = document.querySelector("#closesound");
+    const flipSound = document.querySelector("#flipsound");
     
     /* Add pages here as needed. */
     const cover = document.querySelector("#cover");
@@ -47,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     openBook();
                     cover.classList.add("flipped");
                     cover.style.zIndex = 1;
+                    openSound.play();
                     break;
                 case 2:
                     // Second case: flip page.
@@ -55,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     paper1.classList.add("flipped");
                     paper1.style.zIndex = 2;
                     closeBook(false);
+                    closeSound.play()
                     break;
                 default:
                     throw new Error("Unknown page state");
@@ -72,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     closeBook(true);
                     cover.classList.remove("flipped");
                     cover.style.zIndex = 2;
+                    closeSound.play();
                     break;
                 case 3:
                     // Every other page: unflip the page.
@@ -79,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     openBook();
                     paper1.classList.remove("flipped");
                     paper1.style.zIndex = 1;
+                    openSound.play()
                     break;
                 default:
                     throw new Error("Unknown page state.");

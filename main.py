@@ -6,6 +6,6 @@ app = Flask(__name__)
 def base():
     return render_template("base.html")
 
-@app.route("/book")
-def book():
-    return render_template("base_book.html")
+@app.route("/diary")
+def diary():
+    return render_template("diary.html")

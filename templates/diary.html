@@ -1,0 +1,234 @@
+{% extends "base_book.html" %}
+
+{% block stylesheets %}
+<link href="./static/bookStyle.css" rel="stylesheet">
+<link href="./static/diaryStack.css" rel="stylesheet">
+{% endblock %}
+
+{% block scripts %}
+<script src="./static/diary.js"></script>
+{% endblock %}
+
+{% block pagetitle %}
+<title>Personal Diary</title>
+{% endblock %}
+
+{% block booktitle %}
+<h1 class="justify-center">Personal Diary</h1>
+{% endblock %}
+
+{% block pages %}
+<!--Cover-->
+<div id="cover" class="paper">
+    <!--Cover front-->
+    <div class="front">
+        <div id="coverfront" class="front-content">
+            <img src="../static/diary_cover.png" class="bookImage">
+        </div>
+    </div>
+    <!--Cover back-->
+    <div class="back">
+        <div id="coverback" class="back-content">
+
+        </div>
+    </div>
+</div>
+
+<!--First page-->
+<div id="p1" class="paper">
+    <!--First front-->
+    <div class="front">
+        <div id="f1" class="front-content">
+            <p>
+                <b>23/04/2015</b>
+                <br /> <br />
+                La vita è il segno indelebile di china lasciato sul bianco foglio che è il mondo.
+                Ognuno, nel tempo che ha a disposizione, può decidere che immagine lasciare di sé:
+                invece che invece che una delle tante linee dritte, che una dietro l'altra generano
+                una piatta retta di annullamento, io voglio essere un fiore. So che proveranno a
+                tagliarmi il gambo, a spingermi a ritornare alla piattezza, ma io voglio che, fino
+                alla fine, sul mio foglio ci sia quell'immagine. E chi guarderà questo grande disegno,
+                coglierà quel fiore, ne sentirà il profumo e, magari, sorriderà.
+                Questo voglio essere: una piccola macchia felice, capace di lasciare un po' di allegria
+                nel cuore di qualcuno anche dopo essere stato cancellato dal tempo.
+                Una piccola macchia felice.
+            </p>
+        </div>
+    </div>
+    <!--First back-->
+    <div class="back">
+        <div id="b1" class="back-content">
+            <p>
+                <b>03/06/2015</b>
+                <br /> <br />
+                Io, pazzo sognatore in questi giorni dove i desideri muoiono nel cuore,
+                parto per strappare una stella al cielo e poi, per paura del ridicolo,
+                mi colgo a raccogliere un fiore.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--Second page-->
+<div id="p2" class="paper">
+    <!--Second front-->
+    <div class="front">
+        <div id="f2" class="front-content">
+            <p>
+                <b>03/06/2015</b>
+                <br /> <br />
+                La pallida luna si abbasò una notte <br />
+                per darti un bacio prima del sonno <br />
+                dacché trovò la forza, così volle la sorte <br />
+                di illuminar la notte come fosse giorno. <br /> <br />
+
+                Così ella, decisa a donar parte di sé, <br />
+                posò sulla tua fronte il suo alito di gelo <br />
+                occhi di smeraldo scolpì dentro di te <br />
+                e capelli cioccolato, tessuti come un velo. <br /> <br />
+
+                Ancora nel cuore desidero vedere <br />
+                L'angelo che la luna di notte ha baciato <br />
+                anche solo un istante per guardare quella Venere <br />
+                che il cuore mio ha rapito e liberato. <br /> <br />
+
+                Un sospiro ammaliato, occhi volti al tuo viso <br />
+                alla ricerca della polvere lasciata dalla Luna; <br />
+                e quando decidesti di regalarmi il tuo sorriso <br />
+                il mio cuore s'infiammò senza cercare risposta alcuna. <br /> <br />
+
+                                                                ↪
+            </p>
+        </div>
+    </div>
+
+    <!--Second back-->
+    <div class="back">
+        <div id="b2" class="back-content">
+            <p>
+                Credere che gli angeli abbiano due ali <br />
+                ma ne mostrino una per restare celati <br />
+                è per paura di volare da soli <br />
+                chiedono di poter volare abbracciati. <br /> <br />
+
+                ↩
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--Third page-->
+<div id="p3" class="paper">
+    <!--Third front-->
+    <div class="front">
+        <div id="f3" class="front-content">
+            <p>
+                <b>10/08/2016</b>
+                <br /> <br />
+                Lontano da tutti, lontano (forse) anche dal riflesso di chi è stato fino a un attimo prima.
+                Perso in un cielo scuro e quasi completamente vuoto. Eppure, da una di quelle stelle, sparse
+                come zucchero su di una scura torta al cacao, egli sente come un'onda. Come se qualcuno lo
+                attirasse verso quella stella. E allora via. Via e basta. Verso quella stella che chiama.
+                Per cosa?
+            </p>
+        </div>
+    </div>
+    <!--Third back-->
+    <div class="back">
+        <div id="b3" class="back-content">
+            <p>
+                <b>11/05/2018</b>
+                <br /> <br />
+                Descrivere la nostalgia per qualcosa che non è mai stato mio ha senso?
+                Un tempo, una persona, un oggetto...
+                Può mancarmi la penna di qualcun altro?
+                Quella penna non è mai stata mia, ma non è invidia o desiderio ciò che provo,
+                è nostalgia. Quindi suppongo di sì, si può provare nostalgia per qualcosa di non
+                mio, per quanto non sia mio quanto lo è un ricordo.
+                Ho voglia di un abbraccio.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--Fourth page-->
+<div id="p4" class="paper">
+    <!--Fourth front-->
+    <div class="front">
+        <div id="f4" class="front-content">
+            <p>
+                <b>29/12/2019</b>
+                <br /> <br />
+                A volte, nel buio, il cuore si ammala <br />
+                sapendo d'avere soltanto un'ala. <br />
+                "Poetica facile: due cuori sì alati <br />
+                posson volare solo abbracciati." <br /> <br />
+
+                Perdona se cerco immagini astratte <br />
+                ma meglio un cuore di mille frasi fatte. <br />
+                Zittisco poteastri e ardor commerciale <br />
+                perché io non canto un amore normale. <br /> <br />
+
+                Scrivo col cuore, non con la mano, <br />
+                l'amaro strumento del poeta villano. <br />
+                Ma dolce, infinito quel breve momento <br />
+                in cui il mio cuore si è dato tormento. <br /> <br />
+
+                                                                ↪
+            </p>
+        </div>
+    </div>
+
+    <!--Fourth back-->
+    <div class="back">
+        <div id="b4" class="back-content">
+            <p>
+
+                Tormento alla fragola, odor di primavera <br />
+                e dolce condanna al calar della sera. <br />
+                Un cuore un po' vile, ma perso d'amore <br />
+                inebriato di soffice e caldo torpore. <br /> <br />
+
+                D'un cuore più grande, più alto del cielo <br />
+                che gli occhi tuoi dolci nascondon con zelo. <br />
+                Un cuore stupendo... che dico, una fiamma <br />
+                che con furia mi manda fuori programma. <br /> <br />
+
+                Mi manca il respiro, ho debole il collo <br />
+                sul Ponte di Spada son goffo, un po' pollo <br />
+                ma oltre il dirupo il parlare mio cessa: <br />
+                la vedo, radiosa, la bella principessa. <br /> <br />
+
+                ↩                                               ↪
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--Fifth page-->
+<div id="p5" class="paper">
+    <!--Fifth front-->
+    <div class="front">
+        <div id="f5" class="front-content">
+            <p>
+                A volte, nel buio, il cuore si ammala <br />
+                di un male che, pensa, fa crescere un'ala. <br />
+                Si accende la luce sul palco teatrale <br />
+                dove canto le note di un amore anormale. <br /> <br />
+
+                Cappello sul petto, la guardo e l'ammiro: <br />
+                più bella della Luna... Son pazzo. Sospiro. <br /> <br />
+                ↩
+            </p>
+        </div>
+    </div>
+
+    <!--Fifth back: backcover-->
+    <div class="back">
+        <div id="b5" class="back-content">
+            <img src="../static/diary_backcover.png" class="bookImage">
+        </div>
+    </div>
+</div>
+
+{% endblock %}
