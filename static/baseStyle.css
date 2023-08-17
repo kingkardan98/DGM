@@ -30,3 +30,17 @@ body {
 .justify-right {
     justify-content: right;
 }
+
+/* Styling links */
+
+a:link {
+    color: blue;
+    background-color: beige;
+    padding: 1px 1px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
