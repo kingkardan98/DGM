@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Slides book over when opened.
     function openBook() {
         book.style.transform = "translateX(50%)";
-        prevBtn.style.transform = "translateX(-180px)";
-        nextBtn.style.transform = "translateX(180px)";
+        prevBtn.style.transform = "translateX(-200px)";
+        nextBtn.style.transform = "translateX(200px)";
     }
     
     // Slides over when closed. Must be conditional:

@@ -11,8 +11,8 @@ body {
 .book {
     display: inline-flex;
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 575px;
     transition: transform 0.5s;
 }
 
