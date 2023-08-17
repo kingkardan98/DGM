@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+<link href="../static/selectorStyle.css" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 class="justify-center">
+        Book selector
+    </h1>
+</div>
+<div class="content center wide">
+    <!--Book container-->
+    <div class="sidebySideBooks paddedBooks">
+        <!--Personal diary-->
+        <a href="{{ url_for('diary')}}">
+            <div class="page">
+                    <img src="../static/diary_cover.png" style="width: 370px; height: 600px">
+                
+            </div>
+        </a>
+    </div>
+</div>
+{% endblock %}

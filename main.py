@@ -9,3 +9,7 @@ def home():
 @app.route("/diary")
 def diary():
     return render_template("diary.html")
+
+@app.route("/selector")
+def selector():
+    return render_template("book_selector.html")
