@@ -12,6 +12,11 @@ body {
     box-shadow: 5px 6px;
 }
 
+.inline {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
 /* Alignment of elements inside content divs. */
 .justify-left,
 .justify-center,
@@ -53,3 +58,23 @@ body {
 .wide {
     width: 100%;
 }
+
+/* Custom list bullets */
+
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding-left: var(--icon-space);
+  }
+  
+  li:before{
+    content: "\23"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+  }

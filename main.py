@@ -17,3 +17,7 @@ def selector():
 @app.route("/writings")
 def writings():
     return render_template("writings.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
