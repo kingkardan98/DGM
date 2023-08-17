@@ -8,16 +8,22 @@
 </div>
 <div class="content">
     <p>
-        This webpage is my submission as the final project for the <a href="https://cs50.harvard.edu/x/2023/">CS50x</a> course.
+        This webpage is my submission as the final project for the <a href="https://cs50.harvard.edu/x/2023/" class="aStyle">CS50x</a> course.
     </p>
     <p>
         This small webpage is coded in HTML, CSS and JavaScript, running on the Python Flask framework.
     </p>
     <p>
-        It contains a <a href="#">book selector</a>, which leads to two other pages: an excerpt of my <a href="{{ url_for('diary')}}">personal diary</a> and a selection of <a href="#">other writings.</a>
+        It contains a <a href="{{ url_for('selector')}}" class="aStyle">book selector</a>, which leads to two other pages: an excerpt of my <a href="{{ url_for('diary')}}" class="aStyle">personal diary</a> and a selection of <a href="#" class="aStyle">other writings.</a>
     </p>
     <p>
-        In the <a href="#">about</a> page, you can get to know a little bit about me as well!
+        The cover for the diary was designed by me using Photoshop. The diary and all other writings are in their original language (Italian), since most of them are literary writings, and rhymes would be lost in translation.
+    </p>
+    <p>
+        Most of the pieces were written when I was in high school... Quality may be of issue, but hey, it's like a time vault this way!
+    </p>
+    <p>
+        In the <a href="#" class="aStyle">about</a> page, you can get to know a little bit about me as well!
     </p>
 </div>
 {% endblock %}
