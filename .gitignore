@@ -3,3 +3,4 @@ venv/
 flask-run.bat
 venv*
 .vscode/
+*.DS_Store
