@@ -9,6 +9,7 @@ I coded it in HTML, CSS and JS, running it on a Flask instance written in Python
 
 #### Project structure
 
+```css
 DGM/ 
 ├── static/ 
 │       ├── diary_cover.png
@@ -31,8 +32,10 @@ DGM/
 │       ├── home.html 
 │       └── writings.html 
 └── main.py
+```
 
 <hr>
+
 #### File description
 
 Here is a brief description of every file in the tree:
@@ -53,7 +56,7 @@ Here is a brief description of every file in the tree:
 		```
 		
 		Another effect I created is the highlighting of the links: they start blue, then, on hover, the text turns white, while a black rectangle appears as background:
-		
+
 	```css
 		.aStyle:link {
 		    color: blue;
