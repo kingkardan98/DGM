@@ -1,5 +1,4 @@
 # DGM
-#Programming 
 #### Video Demo:  <https://www.youtube.com/watch?v=8_I1ryzHZqg>
 #### Description:
 
@@ -51,9 +50,10 @@ Here is a brief description of every file in the tree:
 		    border: 2px solid black;
 		    box-shadow: 5px 6px;
 		}
-	```
+		```
 		
 		Another effect I created is the highlighting of the links: they start blue, then, on hover, the text turns white, while a black rectangle appears as background:
+		
 	```css
 		.aStyle:link {
 		    color: blue;
