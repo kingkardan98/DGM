@@ -10,7 +10,7 @@ I coded it in HTML, CSS and JS, running it on a Flask instance written in Python
 
 #### Project structure
 
-**DGM/ 
+DGM/ 
 ├── static/ 
 │       ├── diary_cover.png
 │       ├── diary_backcover.png
