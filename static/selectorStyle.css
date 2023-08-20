@@ -3,35 +3,21 @@
 .center {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
 }
 
 /* First book's CSS */
 
 .page {
-    width: 40vh; /* Feels like a good measure */
-    height: 60vh; /* 40 * 1.5 = 60 */
+    width: 30vh; /* Feels like a good measure */
+    height: 45vh; /* 40 * 1.5 = 60 */
     background: #FFF;
     border-left: 30px solid #FF2929;
     transform: rotate(-45deg) skewX(10deg) scale(.8);
     box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
     display: inline-flex;
     justify-content: space-between;
-}
-
-.page h1 {
-    margin: 0 0 20px 0;
-    padding: 0;
-    text-align: center;
-    font-size: 25px;
-    color: #9e9e9e
-}
-
-.page p {
-    margin: 0;
-    padding: 0;
-    text-align: justify
 }
 
 .page:before {
@@ -59,28 +45,14 @@
 /* Second book's CSS */
 
 .page2 {
-    width: 40vh;
-    height: 60vh;
+    width: 30vh;
+    height: 45vh;
     background: #FFF;
     border-left: 30px solid rgb(73, 73, 73);
     transform: rotate(-45deg) skewX(10deg) scale(.8);
     box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
     display: inline-flex;
     justify-content: space-between;
-}
-
-.page2 h1 {
-    margin: 0 0 20px 0;
-    padding: 0;
-    text-align: center;
-    font-size: 25px;
-    color: #9e9e9e
-}
-
-.page2 p {
-    margin: 0;
-    padding: 0;
-    text-align: justify
 }
 
 .page2:before {
@@ -115,6 +87,6 @@
 }
 
 .coverImage {
-    width: 36vh; /* A bit smaller so it fits correctly */
-    height: 60vh;
+    width: 26vh; /* A bit smaller so it fits correctly */
+    height: 45vh;
 }
