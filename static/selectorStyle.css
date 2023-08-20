@@ -10,8 +10,8 @@
 /* First book's CSS */
 
 .page {
-    width: 400px;
-    height: 600px;
+    width: 40vh; /* Feels like a good measure */
+    height: 60vh; /* 40 * 1.5 = 60 */
     background: #FFF;
     border-left: 30px solid #FF2929;
     transform: rotate(-45deg) skewX(10deg) scale(.8);
@@ -59,8 +59,8 @@
 /* Second book's CSS */
 
 .page2 {
-    width: 400px;
-    height: 600px;
+    width: 40vh;
+    height: 60vh;
     background: #FFF;
     border-left: 30px solid rgb(73, 73, 73);
     transform: rotate(-45deg) skewX(10deg) scale(.8);
@@ -112,4 +112,9 @@
 
 .sideBySideBooks {
     display: inline-flex;
+}
+
+.coverImage {
+    width: 36vh; /* A bit smaller so it fits correctly */
+    height: 60vh;
 }

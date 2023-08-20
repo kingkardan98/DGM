@@ -11,8 +11,8 @@ body {
 .book {
     display: inline-flex;
     position: relative;
-    width: 400px;
-    height: 575px;
+    width: 27.778vw; /* 400 / 1440 = 0.2777... */
+    height: 39.93vw; /* (575 / 400) * 0.2777... = 39.93 */
     transition: transform 0.5s;
 }
 
@@ -58,6 +58,7 @@ body {
     justify-content: center;
     align-items: center top;
     padding: 5px;
+    font-size: 1vw;
 }
 
 .back-content {
@@ -94,7 +95,7 @@ i {
 }
 
 .bookImage {
-    width: 400px;
-    height: 575px;
+    width: 27.778vw; /* 400 / 1440 = 0.2777... */
+    height: 39.93vw; /* (575 / 400) * 0.2777... = 39.93 */
     margin: -7px;
 }
